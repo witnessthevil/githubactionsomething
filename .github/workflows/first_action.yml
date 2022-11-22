@@ -34,5 +34,8 @@ jobs:
         run: pip install -r requirement.txt 
 
       # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
+      - name: Run first spider
         run: python scrapysome.py
+
+      - name: Run second spider
+        run: python some_folder/another.py
