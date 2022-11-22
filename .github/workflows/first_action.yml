@@ -39,5 +39,5 @@ jobs:
 
       - name: Run second spider
         run: |
-            cd some_folder 
+            cd ./some_folder 
             python another.py
