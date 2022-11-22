@@ -1,0 +1,5 @@
+1) Workflow -> attached to github repostitory 
+
+2) Jobs 
+
+3) Steps -> shell script 
