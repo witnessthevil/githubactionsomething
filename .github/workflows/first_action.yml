@@ -38,6 +38,5 @@ jobs:
         run: python scrapysome.py
 
       - name: Run second spider
-        run: | 
-          cd ./some_folder  
-          python another.py
+        working-directory: githubactionsomething/some_folder
+        run: python another.py
