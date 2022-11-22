@@ -38,6 +38,4 @@ jobs:
         run: python scrapysome.py
 
       - name: Run second spider
-        uses: actions/checkout@v3
-        working-directory: some_folder
-        run: python another.py
+        run: ls
